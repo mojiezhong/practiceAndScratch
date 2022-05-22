@@ -1,0 +1,48 @@
+##############################
+# Files/File-pattern to ignore
+##############################
+
+# Emacs, Vi and other editor temp files
+*~
+.#*
+
+# Intellij project settings folder
+.idea/
+.gradle/
+
+# Files and folders for Intellij and other IDEs
+bin/
+out/
+generated-srcs/
+.classpath
+.project
+.settings
+*.ipr
+*.iws
+*.iml
+
+# Build destination for Maven
+target/
+
+abandoned/
+
+# Mac custom attributes file
+.DS_Store
+
+**/local/tls/*
+
+bldenv/
+input_ocibuild/
+output_ocibuild_compilesource/
+output_ocibuild_dockerize_api/
+output_ocibuild_dockerize_worker/
+output_ocibuild_workflowTag/
+
+**/.terraform
+**/*.tfstate
+**/*.tfstate.backup
+
+**/yarn.lock
+
+# locally cached secrets
+**/secret/local/**
